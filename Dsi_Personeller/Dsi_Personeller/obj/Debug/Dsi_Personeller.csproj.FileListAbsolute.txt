@@ -171,4 +171,3 @@ C:\Users\TugceNur\Documents\GitHub\intern\Dsi_Personeller\Dsi_Personeller\obj\De
 C:\Users\TugceNur\Documents\GitHub\intern\Dsi_Personeller\Dsi_Personeller\obj\Debug\Dsi_Personeller.csproj.CopyComplete
 C:\Users\TugceNur\Documents\GitHub\intern\Dsi_Personeller\Dsi_Personeller\obj\Debug\Dsi_Personeller.dll
 C:\Users\TugceNur\Documents\GitHub\intern\Dsi_Personeller\Dsi_Personeller\obj\Debug\Dsi_Personeller.pdb
-C:\Users\TugceNur\Documents\GitHub\intern\Dsi_Personeller\Dsi_Personeller\obj\Debug\Dsi_Personeller.csprojAssemblyReference.cache

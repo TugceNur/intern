@@ -273,13 +273,19 @@ namespace Dsi_Personeller
 
                 // birim adından birimid yi bulacağız
 
-                //string sorgumbirimidgetir = "select birimid from birim where birimadi='" + birim + "' ";
-                //object birimidsi= yeni2.GetScalarQuery(sorgumbirimidgetir);
-                //int birimid = Convert.(birimidsi);
+                string sorgumbirimidgetir = "select birimid from birimler where birimadi='" + birim + "' ";
+                object birimidsi = yeni2.GetScalarQuery(sorgumbirimidgetir);
+                int birimid = Convert.ToInt32(birimidsi);  
+                Drop_birim.SelectedValue = birimid.ToString();
 
-                Drop_birim.SelectedItem.Text = birim;
 
-                Drop_gorev.SelectedItem.Text = gorevi;
+
+                string gorevidgetir = "select * from gorevler where gorevadi='" + gorevi + "' ";
+                object gorevidisi = yeni2.GetScalarQuery(gorevidgetir);
+                int gorevid = Convert.ToInt32(gorevidisi);
+                Drop_gorev.SelectedValue = gorevid.ToString();
+
+
 
 
                 string mail = GridView1.SelectedRow.Cells[8].Text;
@@ -375,15 +381,30 @@ namespace Dsi_Personeller
 
             int personelid = Convert.ToInt32(GridView1.SelectedRow.Cells[3].Text);
 
-            string guncel = @" update personeller set 
-            '"+yeni.personelad+ "','" + yeni.personelsoyad + "'," +
-            " '" + yeni.birimid + "','" + yeni.gorevid + "','" 
-            +yeni.telefon + "', '" + yeni.mail + "' where personelid='"+personelid+"' ";
+            yeni.personelid = personelid;
 
+            string guncellesorgusu = "update personeller set personelad='" + yeni.personelad + "' ,personelsoyad='" + yeni.personelsoyad + "', gorevid='" + yeni.gorevid + "',telefon='" + yeni.telefon + "',mail='" + yeni.mail + "',fotograf='" + yeni.fotograf + "' where personelid='"+yeni.personelid+"' ";
+
+             
            
             dataislemleri db = new dataislemleri();
            
-            db.ExecuteSPQuery(guncel);
+            db.ExecuteSPQuery(guncellesorgusu);
+
+
+            string sorgu = @"select personeller.personelid,personeller.personelad,personeller.personelsoyad
+                    ,      birimler.birimadi
+                    ,      gorevler.gorevadi
+                    , personeller.mail
+                    ,personeller.telefon
+                    ,personeller.fotograf
+                    from       personeller
+                    inner join gorevler    on personeller.gorevid=gorevler.gorevid
+                    inner join birimler    on gorevler.birimid=birimler.birimid";
+
+
+
+            db.FillGridViewqueryDev(sorgu, GridView1);
         }
     }
 }

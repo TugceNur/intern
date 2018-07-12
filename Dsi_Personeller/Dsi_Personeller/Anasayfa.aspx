@@ -152,11 +152,14 @@
                 </tr>
                 <tr>
                     <td class="auto-style2" colspan="3">
-                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="168px" Width="904px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="168px" Width="904px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" ShowFooter="True">
                             <Columns>
                                 <asp:TemplateField HeaderText="Güncelle">
+                                    <FooterTemplate>
+                                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                    </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Button ID="btnguncelle" runat="server" CommandName="guncelle" Text="Güncelle" Width="100px" />
+                                        <asp:Button ID="btnguncelle" runat="server" CommandName="guncelle" Text="Düzenle" Width="100px" CausesValidation="False" />
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Sil">
