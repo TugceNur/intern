@@ -7,40 +7,12 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 918px;
-            height: 593px;
+            width: 985px;
+            height: 480px;
         }
         .auto-style2 {
         }
-        .auto-style4 {
-            height: 38px;
-        }
-        .auto-style6 {
-            height: 36px;
-        }
-               
-        .auto-style8 {
-            height: 26px;
-        }
-        .auto-style10 {
-            width: 120px;
-        }
-        .auto-style11 {
-            height: 26px;
-            width: 120px;
-        }
-        .auto-style12 {
-            height: 38px;
-            width: 120px;
-        }
-        .auto-style14 {
-            height: 28px;
-            width: 120px;
-        }
-        .auto-style16 {
-            height: 28px;
-        }
-       
+                       
         .auto-style17 {
             text-align: justify;
         }
@@ -49,6 +21,16 @@
         {
 
             text-align:center;
+        }
+        .sag
+        {
+
+            text-align:right;
+        }
+         .sol
+        {
+
+            text-align:left;
         }
         </style>
 
@@ -66,125 +48,112 @@
                 <tr>
                     <td class="auto-style17 hizala" colspan="2" >
                         <asp:Label ID="lbl_dsi"  runat="server" BorderStyle="Outset" Text="DSI 14. Bölge Müdürlüğü" Width="326px" Font-Size="X-Large" Font-Overline="False" style="z-index: 1"></asp:Label>
+                        <br />
                     </td>
                    
                 </tr>
                 <tr>
                     <td class="auto-style2" colspan="2">
-                        &nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style10">
-                        <asp:Label ID="Label1" runat="server" Text="Ad:"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:TextBox ID="txt_Ad" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txt_Ad" ErrorMessage="***"></asp:RequiredFieldValidator>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style10">
-                        <asp:Label ID="Label2" runat="server" Text="Soyad:"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:TextBox ID="txt_Soyad" runat="server" TabIndex="1"></asp:TextBox>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td class="auto-style10">
-                        <asp:Label ID="Label3" runat="server" Text="Birim:"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:DropDownList ID="Drop_birim" runat="server" AutoPostBack="True" OnSelectedIndexChanged="Drop_birim_SelectedIndexChanged" TabIndex="2">
-                        </asp:DropDownList>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style11">
-                        <asp:Label ID="Label4" runat="server" Text="Görev:"></asp:Label>
-                    </td>
-                    <td class="auto-style8">
-                        <asp:DropDownList ID="Drop_gorev" runat="server" AutoPostBack="True" TabIndex="3">
-                        </asp:DropDownList>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style10">
-                        <asp:Label ID="Label5" runat="server" Text="Telefon:"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:TextBox ID="txt_Tel" runat="server" TabIndex="4"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style10">
-                        <asp:Label ID="Label6" runat="server" Text="Mail:"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:TextBox ID="txt_Mail" runat="server" TabIndex="5"></asp:TextBox>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txt_Mail" ErrorMessage="mail formatında giriş yapınız" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style12">
-                        <asp:Label ID="Label7" runat="server" Text="Fotoğraf:"></asp:Label>
-                    </td>
-                    <td class="auto-style4">
-                        <asp:FileUpload ID="FileUpload1" runat="server" TabIndex="6" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style14">
-                        </td>
-                    <td class="auto-style16">
-                        <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="btn_ekle" runat="server" OnClick="btn_ekle_Click" Text="EKLE" CssClass="auto-style6" Font-Bold="True" TabIndex="7" />
-                        &nbsp;
-                        <asp:Button ID="btn_ara" runat="server" Text="ARA" OnClick="btn_ara_Click" CssClass="auto-style6" Font-Bold="True" TabIndex="8" />
-                        &nbsp;
-                        <asp:Button ID="btn_guncelle" runat="server" Text="GÜNCELLE" CssClass="auto-style6" Font-Bold="True" TabIndex="9" OnClick="btn_guncelle_Click" />
-                    &nbsp;&nbsp;
-                        <asp:Button ID="btn_temzle" runat="server" Text="TEMİZLE" CssClass="auto-style6" Font-Bold="True" TabIndex="10" OnClick="btn_temzle_Click1" />
-                    </td>
-                   
-                </tr>
-                <tr>
-                    <td class="auto-style2" colspan="3">
-                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="168px" Width="904px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" ShowFooter="True">
+                        <asp:Label ID="lbl_mesaj" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#336666"></asp:Label>
+                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="168px" Width="936px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" ShowFooter="True">
                             <Columns>
-                                <asp:TemplateField HeaderText="Güncelle">
+                                <asp:TemplateField HeaderText="Personel IDsi" SortExpression="personelid">
+                                    <EditItemTemplate>
+                                        <asp:Label ID="Label10" runat="server" Text='<%# Eval("personelid") %>'></asp:Label>
+                                    </EditItemTemplate>
                                     <FooterTemplate>
-                                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                        <asp:Label ID="lbl_personelid" runat="server"></asp:Label>
                                     </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Button ID="btnguncelle" runat="server" CommandName="guncelle" Text="Düzenle" Width="100px" CausesValidation="False" />
+                                        <asp:Label ID="Label1" runat="server" Text='<%# Bind("personelid") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Sil">
+                                <asp:TemplateField HeaderText="Personelin Adı" SortExpression="personelad">
+                                    <EditItemTemplate>
+                                        <asp:TextBox ID="TextBox2" runat="server" Text='<%# Bind("personelad") %>'></asp:TextBox>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:TextBox ID="txt_ad" runat="server"></asp:TextBox>
+                                    </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Button ID="btnsil" runat="server" CausesValidation="False" CommandName="sil" Text="Sil"  Width="100px"   OnClientClick="sor()"/>
+                                        <asp:Label ID="Label2" runat="server" Text='<%# Bind("personelad") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:TemplateField HeaderText="Seç">
+                                <asp:TemplateField HeaderText="Personelin Soyadı" SortExpression="personelsoyad">
+                                    <EditItemTemplate>
+                                        <asp:TextBox ID="TextBox3" runat="server" Text='<%# Bind("personelsoyad") %>'></asp:TextBox>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:TextBox ID="txt_soyad" runat="server"></asp:TextBox>
+                                    </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Button ID="btnsec" runat="server" CausesValidation="False" CommandName="sec" Text="Seç" Width="100px" />
+                                        <asp:Label ID="Label9" runat="server" Text='<%# Bind("personelsoyad") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                <asp:BoundField DataField="personelid" HeaderText="Personel IDsi" SortExpression="personelid" />
-                                <asp:BoundField DataField="personelad" HeaderText="Personelin Adı" SortExpression="personelad" />
-                                <asp:BoundField DataField="personelsoyad" HeaderText="Personelin Soyadı" SortExpression="personelsoyad" />
-                                <asp:BoundField DataField="birimadi" HeaderText=" Birimi " SortExpression="birimadi" />
-                                <asp:BoundField DataField="gorevadi" HeaderText="Görevi" />
-                                <asp:BoundField DataField="mail" HeaderText="Mail" />
-                                <asp:BoundField DataField="telefon" HeaderText="Telefon" />
+                                <asp:TemplateField HeaderText=" Birimi " SortExpression="birimadi">
+                                    <EditItemTemplate>
+                                        <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                                        </asp:DropDownList>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:DropDownList ID="Drop_birimi" runat="server" AutoPostBack="True" OnSelectedIndexChanged="Drop_birimi_SelectedIndexChanged1">
+                                        </asp:DropDownList>
+                                    </FooterTemplate>
+                                    <ItemTemplate>
+                                        <asp:Label ID="Label4" runat="server" Text='<%# Bind("birimadi") %>'></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Görevi">
+                                    <EditItemTemplate>
+                                        <asp:DropDownList ID="Drop_gorevi_edit" runat="server" AutoPostBack="True">
+                                        </asp:DropDownList>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:DropDownList ID="Drop_gorevi" runat="server" AutoPostBack="True">
+                                        </asp:DropDownList>
+                                    </FooterTemplate>
+                                    <ItemTemplate>
+                                        <asp:Label ID="Label8" runat="server" Text='<%# Eval("gorevadi") %>'></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Mail">
+                                    <EditItemTemplate>
+                                        <asp:TextBox ID="TextBox6" runat="server" Text='<%# Bind("mail") %>'></asp:TextBox>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:TextBox ID="txt_mail" runat="server" TextMode="Email"></asp:TextBox>
+                                    </FooterTemplate>
+                                    <ItemTemplate>
+                                        <asp:Label ID="Label6" runat="server" Text='<%# Bind("mail") %>'></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Telefon">
+                                    <EditItemTemplate>
+                                        <asp:TextBox ID="TextBox7" runat="server" Text='<%# Bind("telefon") %>'></asp:TextBox>
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:TextBox ID="txt_tel" runat="server" TextMode="Number"></asp:TextBox>
+                                    </FooterTemplate>
+                                    <ItemTemplate>
+                                        <asp:Label ID="Label7" runat="server" Text='<%# Bind("telefon") %>'></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
                                 <asp:ImageField DataImageUrlField="fotograf" HeaderText="Resmi" Visible="False">
                                     <ItemStyle Height="20px" HorizontalAlign="Left" Width="20px" Wrap="True" />
                                 </asp:ImageField>
                                 <asp:TemplateField HeaderText="fotografi ---" Visible="False">
+                                </asp:TemplateField>
+                                <asp:TemplateField>
+                                    <EditItemTemplate>
+                                        <asp:Button ID="Button1_guncel" runat="server" Text="Guncelle" />
+                                        <asp:Button ID="Button2_vazgec" runat="server" CommandName="vazgec" Text="Vazgeç" />
+                                    </EditItemTemplate>
+                                    <FooterTemplate>
+                                        <asp:Button ID="btn_add" runat="server" Text="EKLE" CommandName="ekle"/>
+                                    </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("fotograf") %>' />
+                                        <asp:Button ID="btn_duzenle" runat="server" Text="Düzenle" CommandName="duzenle" />
+                                        <asp:Button ID="btn_sil" runat="server" Text="Sil" CommandName="sil" />
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>

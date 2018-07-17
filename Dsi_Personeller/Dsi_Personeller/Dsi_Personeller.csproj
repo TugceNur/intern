@@ -69,10 +69,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Anasayfa.aspx" />
+    <Content Include="fotograflar\devlet_su_isleri_logo.jpg" />
     <Content Include="fotograflar\sample.jpg" />
+    <Content Include="KullaniciGirisi.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="YeniKayit.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anasayfa.aspx.cs">
@@ -83,8 +86,22 @@
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
     <Compile Include="dataislemleri.cs" />
+    <Compile Include="KullaniciGirisi.aspx.cs">
+      <DependentUpon>KullaniciGirisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KullaniciGirisi.aspx.designer.cs">
+      <DependentUpon>KullaniciGirisi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="personeller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YeniKayit.aspx.cs">
+      <DependentUpon>YeniKayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeniKayit.aspx.designer.cs">
+      <DependentUpon>YeniKayit.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

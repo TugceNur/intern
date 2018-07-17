@@ -1,0 +1,92 @@
+[0713/113626.347:ERROR:process_reader_win.cc(242)] ReadMemory at 0x1be019d0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe420000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe960000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\windows.storage.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffffe30000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\shlwapi.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffff530000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe720000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe8c0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffffb50000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ff800000000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffdf60000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffdf80000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffdf10000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\powrprof.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffdfc0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\FLTLIB.DLL
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffe89c0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\chrome_elf.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff3ec0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff1810000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffde40000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff9ea0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff1050000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffd960000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffff460000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffb0c00000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\chrome_child.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ff8018f0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\COMDLG32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ff801820000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ff8019f0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffffe90000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe1d0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffdfa0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffe230000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffe9420000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.165_none_fb429645306569ac\COMCTL32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff2d60000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff8560000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff7110000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\USP10.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff8440000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffd510000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff2550000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\urlmon.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fffe3910000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffccd0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dxgi.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff7810000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ff8019e0000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\System32\NSI.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffca20000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\PROPSYS.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffda70000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\bcrypt.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffff1b20000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\iertutil.dll
+[0713/113626.362:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffffde10000 of 64 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.362:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+[0713/113626.378:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6dc09f4000 of 49152 bytes failed: ReadProcessMemory veya WriteProcessMemory isteðinin sadece bir parçasý tamamlandý. (0x12B)
+[0713/113626.378:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0713/113626.393:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\TugceNur\AppData\Local\Microsoft\VisualStudio\15.0_f02238ea\WebTools\ChromeUserData_4F52A13F_33D85D00-15A0-40BE-9D8D-0FB82F69AA0D\Crashpad\reports\1d0edc2c-2381-4b94-8e71-a918f94b9f78.dmp: Dosya baþka bir iþlem tarafýndan kullanýldýðýndan bu iþlem dosyaya eriþemiyor. (0x20)
+[0713/113626.393:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Sona ermekte olan bir iþleme eriþmeye çalýþýldý. (0xc000010a)

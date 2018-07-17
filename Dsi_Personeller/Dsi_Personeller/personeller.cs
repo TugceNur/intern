@@ -15,6 +15,7 @@ namespace Dsi_Personeller
         public string telefon { get; set; }
         public string mail { get; set; }
         public string fotograf { get; set; }
+        public string sifre { get; set; }
         internal static object ToList()
         {
             throw new NotImplementedException();
