@@ -12,7 +12,11 @@
         }
         .auto-style2 {
         }
-                       
+           .sekil {
+           background-color: aliceblue;
+           color:black; 
+        }
+                    
         .auto-style17 {
             text-align: justify;
         }
@@ -40,8 +44,10 @@
             return confirm('Personel silinecektir emin misin ?');
         }
     </script>
+
+
 </head>
-<body>
+<body >
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">
@@ -55,7 +61,7 @@
                 <tr>
                     <td class="auto-style2" colspan="2">
                         <asp:Label ID="lbl_mesaj" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#336666"></asp:Label>
-                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="168px" Width="936px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" ShowFooter="True">
+                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataKeyNames="personelid" GridLines="Horizontal" Height="300px" Width="936px" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="4" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" OnRowCommand="GridView1_RowCommand" OnSorting="GridView1_Sorting"  ShowFooter="True" OnRowDataBound="GridView1_RowDataBound">
                             <Columns>
                                 <asp:TemplateField HeaderText="Personel IDsi" SortExpression="personelid">
                                     <EditItemTemplate>
@@ -105,7 +111,7 @@
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Görevi">
                                     <EditItemTemplate>
-                                        <asp:DropDownList ID="Drop_gorevi_edit" runat="server" AutoPostBack="True">
+                                        <asp:DropDownList runat="server" AutoPostBack="True" ID="Drop_gorevi_edit">
                                         </asp:DropDownList>
                                     </EditItemTemplate>
                                     <FooterTemplate>
@@ -145,15 +151,15 @@
                                 </asp:TemplateField>
                                 <asp:TemplateField>
                                     <EditItemTemplate>
-                                        <asp:Button ID="Button1_guncel" runat="server" Text="Guncelle" />
-                                        <asp:Button ID="Button2_vazgec" runat="server" CommandName="vazgec" Text="Vazgeç" />
+                                        <asp:Button ID="Button1_guncel" runat="server" Text="Guncelle" CommandName="guncelle" />
+                                        <asp:Button ID="Button2_vazgec" runat="server" CommandName="iptal" Text="Vazgeç" />
                                     </EditItemTemplate>
                                     <FooterTemplate>
                                         <asp:Button ID="btn_add" runat="server" Text="EKLE" CommandName="ekle"/>
                                     </FooterTemplate>
                                     <ItemTemplate>
-                                        <asp:Button ID="btn_duzenle" runat="server" Text="Düzenle" CommandName="duzenle" />
-                                        <asp:Button ID="btn_sil" runat="server" Text="Sil" CommandName="sil" />
+                                        <asp:Button ID="btn_duzenle" runat="server" Text="Düzenle" CommandName="editleme" />
+                                        <asp:Button ID="btn_sil" runat="server" Text="Sil" CommandName="sil"  OnClientClick="sor()" />
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -168,6 +174,7 @@
                             <SortedDescendingCellStyle BackColor="#E5E5E5" />
                             <SortedDescendingHeaderStyle BackColor="#275353" />
                         </asp:GridView>
+                        <asp:Button ID="btn_geri" runat="server" OnClick="btn_geri_Click" Text="Geri" />
                     </td>
                 </tr>
             </table>

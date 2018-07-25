@@ -78,7 +78,7 @@
                         <asp:Label ID="Label8" runat="server" Text="Şifre:"></asp:Label>
                     </td>
                     <td class="auto-style8">
-                        <asp:TextBox ID="txt_sifre" runat="server" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="txt_sifre" runat="server" TextMode="Password" TabIndex="4"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -86,7 +86,7 @@
                         <asp:Label ID="Label5" runat="server" Text="Telefon:"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txt_Tel" runat="server" TabIndex="4"></asp:TextBox>
+                        <asp:TextBox ID="txt_Tel" runat="server" TabIndex="5"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -94,7 +94,7 @@
                         <asp:Label ID="Label6" runat="server" Text="Mail:"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txt_Mail" runat="server" TabIndex="5"></asp:TextBox>
+                        <asp:TextBox ID="txt_Mail" runat="server" TabIndex="6"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txt_Mail" ErrorMessage="mail formatında giriş yapınız" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     </td>
                 </tr>
@@ -103,7 +103,7 @@
                         <asp:Label ID="Label7" runat="server" Text="Fotoğraf:"></asp:Label>
                     </td>
                     <td class="auto-style4">
-                        <asp:FileUpload ID="FileUpload1" runat="server" TabIndex="6" />
+                        <asp:FileUpload ID="FileUpload1" runat="server" TabIndex="7" />
                     </td>
                 </tr>
                 <tr>
@@ -119,8 +119,18 @@
                         <asp:Label ID="lbl_mesaj" runat="server" Font-Bold="True" ForeColor="#CC0000"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;
-                        <asp:Button ID="btn_geri" runat="server" OnClick="btn_geri_Click" Text="Geri" />
-                        <asp:Button ID="btn_ekle" runat="server" OnClick="btn_ekle_Click" Text="EKLE" CssClass="auto-style6" Font-Bold="True" TabIndex="7" />
+                        </td>
+                   
+                </tr>
+               
+                <tr>
+                    <td class="auto-style14">
+                        &nbsp;</td>
+                    <td class="auto-style16">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btn_geri" runat="server" OnClick="btn_geri_Click" Text="Geri" TabIndex="8" />
+                        &nbsp;
+                        <asp:Button ID="btn_ekle" runat="server" OnClick="btn_ekle_Click" Text="EKLE" CssClass="auto-style6" Font-Bold="True" TabIndex="9" />
                     </td>
                    
                 </tr>
